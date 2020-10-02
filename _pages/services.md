@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "Services"
 layout: page
-permalink: "/about.html"
+permalink: "/services.html"
 image: "/assets/images/screenshot.jpg"
 comments: false
 ---

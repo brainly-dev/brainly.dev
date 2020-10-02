@@ -1,18 +1,15 @@
 ---
-title: "Mundana Free Jekyll Theme"
+title: "Brainly.dev"
 layout: default
 pagination:
     enabled: true
-description: "A great Jekyll theme developed by Sal @wowthemesnet."
+description: "Great products comes with great design & code"
 ---
-
 
 <div class="container">
     
 {% if page.url == "/" %}
-    
-    
-    
+
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
     
@@ -30,7 +27,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     <p class="excerpt">
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
-    <div>
+    <!--div>
         <small class="d-block text-muted">
             In <span class="catlist">
                 {% for category in latest_post.categories %}
@@ -41,7 +38,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
         <small class="text-muted">
             {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
-    </div>
+    </div-->
     </div>
     </div>
     </div>
@@ -69,9 +66,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                         {% endfor %}
                         </span>                   
                     </small>
-                    <small class="text-muted">
+                    <!--small class="text-muted">
                         {{ second_post.date | date: '%b %d, %Y' }}
-                    </small>
+                    </small-->
                 </div>
             </div>
         
@@ -96,9 +93,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                         {% endfor %}
                         </span>                   
                     </small>
-                    <small class="text-muted">
+                    <!--small class="text-muted">
                         {{ third_post.date | date: '%b %d, %Y' }}
-                    </small>
+                    </small-->
                 </div>
             </div>
         
@@ -123,9 +120,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                         {% endfor %}
                         </span>                   
                     </small>
-                    <small class="text-muted">
+                    <!--small class="text-muted">
                         {{ fourth_post.date | date: '%b %d, %Y' }}
-                    </small>
+                    </small-->
                 </div>
             </div>
         
@@ -155,12 +152,8 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
 {% endfor %}
 
 
-    
-
-
 {% endif %} <!--endif page url is / -->
     
-
 
 <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
     
