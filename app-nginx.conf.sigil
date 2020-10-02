@@ -14,7 +14,7 @@ http {
   server {
     listen {{ $.PORT }};
     server_name  _;
-    root /app/_site; # 3
+    root /app/www/_site; # 3
     index index.html;
     port_in_redirect off;
 
