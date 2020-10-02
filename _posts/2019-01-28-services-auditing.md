@@ -3,7 +3,7 @@ layout: post
 title:  "Software & Process Auditing"
 author: foss
 categories: [ Services ]
-image: assets/images/1.jpg
+image: assets/images/IMG_20.jpg
 tags: [services, 'web development', 'mobile development' ]
 comments: false
 ---
