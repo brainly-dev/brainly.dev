@@ -2,7 +2,7 @@
 layout: post
 title:  "We are Brainly.dev!"
 categories: [ "Who we are" ]
-image: assets/images/demo1.jpg
+image: assets/images/img_4.jpg
 author: foss
 comments: false
 ---
