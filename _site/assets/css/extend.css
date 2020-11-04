@@ -1,0 +1,13 @@
+.logo {
+    font-size: xx-large;
+    height: 48px;
+    vertical-align:top;
+}
+
+article.article-page:first-letter {
+    float:left;
+    font-size:2.5rem;
+    line-height: 1.2;
+    margin:0 0 0 0;
+    vertical-align:top;
+}
